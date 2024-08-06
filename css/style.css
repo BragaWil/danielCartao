@@ -36,6 +36,7 @@
     font-size: 4rem;
     margin: 0;
     color: #2626a4d8;
+    font-weight: bold;
 }
 
 .cabecalho__item_p{
@@ -88,4 +89,63 @@ body{
     margin: 0;
     padding: 1rem;
     background-color: #a4dffd;
+}
+
+@media (max-width: 720px){
+    .cabecalho__nome{
+        font-size: 4rem;
+        margin-left: 2rem;
+    }
+
+    .cabecalho{
+        align-items: center;
+        margin-left: 2rem;
+        width: 100%;
+    }
+
+    .cabecalho__img{
+        width: 60vw;
+        height: 50vw;
+        margin-right: 0;
+    }
+
+    .lista{
+        margin-left: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .cabecalho__p{
+        font-size: 2rem;
+        
+    }
+
+    .cabecalho__lista{
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .descricao{
+        width: 90%;
+        text-align: justify;
+        font-size: 1.5rem;
+        margin: 2rem 3rem;
+    }
+
+    .carousel{
+        width: 90vw;
+        margin-left: 4rem;
+    }
+
+    .titulo__s{
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .foot{
+        margin-right: -4rem;
+        padding: 0.5rem;
+    }
+
 }
